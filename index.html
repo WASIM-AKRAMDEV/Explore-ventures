@@ -231,6 +231,21 @@
           </div>
         </div>
         <div
+          class="tab-pane pane-1 fade show active"
+          id="pills-country"
+          role="tabpanel"
+          aria-labelledby="pills-country-tab"
+          tabindex="0"
+        >
+          <div class="custom-container">
+            <h1>Explore Ventures</h1>
+            <p>
+              A directory of game-changing startups on the platform.
+              <a href="">Add your venture profile</a>
+            </p>
+          </div>
+        </div>
+        <div
           class="tab-pane pane-1 fade"
           id="pills-profile"
           role="tabpanel"
@@ -329,7 +344,21 @@
                     aria-selected="true"
                     onclick="changeTab('pills-home')"
                   >
-                    Country
+                    All
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-country"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-country"
+                    aria-selected="true"
+                    onclick="changeTab('pills-country')"
+                  >
+                  Country
                   </button>
                 </li>
                 <li class="nav-item" role="presentation">
@@ -1009,13 +1038,25 @@
           </footer>
         </div>
 
+
+
+        <div
+          class="tab-pane fade"
+          id="pills-country-bottom"
+          role="tabpanel"
+          aria-labelledby="pills-country-tab"
+          tabindex="0"
+        >
+        Bottom country Content...</div>
         <div
           class="tab-pane fade"
           id="pills-profile-bottom"
           role="tabpanel"
           aria-labelledby="pills-profile-tab"
           tabindex="0"
-        ></div>
+        >
+        Bottom City Content...
+      </div>
         <div
           class="tab-pane fade"
           id="pills-contact-bottom"
@@ -1023,7 +1064,7 @@
           aria-labelledby="pills-contact-tab"
           tabindex="0"
         >
-          Bottom Contact Content...
+          Bottom Industry Content...
         </div>
         <div
           class="tab-pane fade"
@@ -1041,7 +1082,7 @@
           aria-labelledby="pills-year-tab"
           tabindex="0"
         >
-          Bottom Category Content...
+          Bottom year Content...
         </div>
       </div>
     </section>
